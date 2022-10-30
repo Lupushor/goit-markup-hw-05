@@ -659,6 +659,30 @@ img {
   color: var(--ptimary-text-color);
 }
 
+.portfolio-text-wrap{
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-text-item {
+  position: absolute;
+  top: 0;
+  padding: 63px 24px;
+  font-size: 18px;
+line-height: 1.56;
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+background: rgba(33, 150, 243, 0.9);
+height: 100%;
+transform: translateY(100%);transition: transform 300ms linear;
+}
+
+.portfolio-text-wrap:hover .portfolio-text-item{
+  transform: translateY(0);
+}
+
 .img-description {
   padding: 24px 20px;
   border-left: 1px solid var(--border-color-portfolio);
