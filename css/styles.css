@@ -737,12 +737,6 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .portfolio-link:hover .portfolio-text-item, 
-.portfolio-link:focus .portfolio-text-item{
-  transform: translateY(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
 .img-description {
   padding: 24px 20px;
   border-left: 1px solid var(--border-color-portfolio);
